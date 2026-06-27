@@ -116,13 +116,14 @@ export const PipelineUI = () => {
     <>
       <div
         ref={reactFlowWrapper}
-        style={{
+  style={{
     width: "100%",
-    height: "65vh",
-    background: "#f8fafc",
-    borderRadius: "12px",
-    border: "1px solid #dbeafe",
+    height: "70vh",
+    background: "white",
+    borderRadius: "16px",
     overflow: "hidden",
+    border: "1px solid #e2e8f0",
+    boxShadow: "0 8px 25px rgba(0,0,0,.08)",
 }}
       >
         <ReactFlow
@@ -147,8 +148,10 @@ export const PipelineUI = () => {
 
           <MiniMap
     zoomable
-    pannable
-    nodeStrokeWidth={3}
+  pannable
+  style={{
+    background: "#f8fafc",
+  }}
 />
 
           <Controls

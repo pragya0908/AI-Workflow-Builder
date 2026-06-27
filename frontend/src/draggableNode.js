@@ -19,6 +19,12 @@ export const DraggableNode = ({ type, label }) => {
       draggable
       onDragStart={(event) => onDragStart(event, type)}
       onDragEnd={(event) => (event.target.style.cursor = "grab")}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.transform = "translateY(-3px)";
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.transform = "translateY(0)";
+      }}
       style={{
         width: "140px",
         height: "70px",
@@ -36,7 +42,7 @@ export const DraggableNode = ({ type, label }) => {
 
         boxShadow: "0 6px 18px rgba(37,99,235,.12)",
 
-        transition:"all .2s ease",
+        transition: "all .2s ease",
 
         userSelect: "none",
       }}
