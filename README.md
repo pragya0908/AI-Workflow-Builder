@@ -1,4 +1,4 @@
-# VectorShift — Pipeline Builder
+#  Pipeline Builder
 
 A visual drag-and-drop pipeline builder built with React and FastAPI, submitted as part of the VectorShift Frontend Technical Assessment.
 
@@ -102,7 +102,7 @@ Frontend runs at `http://localhost:3000`
 
 ---
 
-## Assessment Parts
+
 
 ### Part 1 — Node Abstraction
 
