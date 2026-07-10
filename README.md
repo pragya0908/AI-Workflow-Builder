@@ -1,6 +1,6 @@
 #  Pipeline Builder
 
-A visual drag-and-drop pipeline builder built with React and FastAPI, submitted as part of the VectorShift Frontend Technical Assessment.
+A visual drag-and-drop pipeline builder built with React and FastAPI.
 
 ---
 
